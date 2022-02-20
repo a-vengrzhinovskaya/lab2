@@ -4,7 +4,7 @@ namespace lab2
 {
     public class TXT : Document {
 
-        private string Words { set; get; }
+        private string Words { get; set; }
         private string Lines { set; get; }
 
         public TXT(string Name, string Creator, string Tags, string Theme, string Path, string words, string lines) : base(Name, Creator, Tags, Theme, Path) {

@@ -1,6 +1,7 @@
 ﻿using System;
 
 namespace lab2 {
+
     public class DocumentSingleton {
 
         private static DocumentSingleton instance;

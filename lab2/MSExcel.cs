@@ -1,9 +1,10 @@
 ﻿using System;
 
 namespace lab2 {
+
     public class MSExcel : Document {
 
-        private string Columns { set; get; }
+        private string Columns { get; set; }
         private string Rows { set; get; }
 
         public MSExcel(string Name, string Creator, string Tags, string Theme, string Path, string columns, string rows) : base(Name, Creator, Tags, Theme, Path) {
