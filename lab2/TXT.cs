@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace lab2
-{
+namespace lab2 {
+
     public class TXT : Document {
 
         private string Words { get; set; }
