@@ -10,14 +10,18 @@ namespace lab2 {
 
         }
 
-        public static DocumentSingleton GetInstance() {
+        public static DocumentSingleton GetInstance {
 
-            if (instance == null) {
+            get {
 
-                instance = new DocumentSingleton();
+                if (instance == null)
+                {
+
+                    instance = new DocumentSingleton();
+                }
+
+                return instance;
             }
-
-            return instance;
         }
 
         private void SetBaseInfo(out string name, out string creator, out string tags, out string theme, out string path) {

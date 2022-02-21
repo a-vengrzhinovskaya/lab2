@@ -12,9 +12,7 @@ namespace lab2 {
 
 		static void Main(string[] args) {
 
-			var Document = DocumentSingleton.GetInstance();
-
-			Document.Menu();
+			DocumentSingleton.GetInstance.Menu();
 		}
 	}
 }
